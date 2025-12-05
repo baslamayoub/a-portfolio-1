@@ -1,0 +1,47 @@
+@media only screen and (min-width: 768px) {
+    .Burger {
+      display: none;
+    }
+    .Nav {
+      display: block;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .Nav {
+      display: none;
+    }
+    .Burger {
+      display: block;
+    }
+    .socialMedia{
+      display: none;
+
+    }
+    .home h1 {
+      font-size: 45px !important;
+    }
+    .home h2{
+      font-size: 40px !important;
+    }
+    .about .section  {
+      flex-direction: column;
+    }
+    /* .about .title {
+      justify-content: start;
+    } */
+    .about h2 ,.about p{
+      text-align: center;
+    }
+    .about .section div {
+      width: 100%;
+    }
+    .projects article .hiddenEffect{
+      transform: rotate(0deg);
+    }
+  }
+
+  @media (max-width:600px) {
+    .skills .gridSkills {
+      grid-template-columns: repeat(auto-fill,minmax(100%,1fr));
+    }
+  }
